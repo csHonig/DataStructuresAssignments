@@ -1,0 +1,7 @@
+- Hey grandson, when am I going to meet your girlfriend?|Grandma i've told you, i'm into other men.|I don’t have a girlfriend grandma.|
+- Oh. Could you grab me some iced tea then?|No.|I guess|
+- Oh Im sorry! Would you be able to grab me some Iced tea?|Sure!|Im busy right now sorry!|
+- Fine|-1|mad|
+- Thanks hun|0|neutral|
+- Aww Thank you!!|1|happy|
+- Okay, i'll get it myself!|0|neutral|

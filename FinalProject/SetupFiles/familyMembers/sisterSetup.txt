@@ -1,0 +1,7 @@
+- Hey does this make me look fat?|Yes|No|
+- WTF?|What???|I thought you said “Are you ready to eat”|
+- That was not very convincing|You look spectacular!|Neither is that outfit|
+- I hate you so much|-1|mad|
+- Okay...|0|neutral|
+- Awww Thank You|1|happy|
+- I hate you so much|-1|mad|

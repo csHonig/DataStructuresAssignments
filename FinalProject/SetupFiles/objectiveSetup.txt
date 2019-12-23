@@ -1,0 +1,4 @@
+Help needed in the kitchen|Bring ice, turkey, and drinks to the kitchen|kitchen|ice|turkey|drinks|
+Set the table|bring plates, napkins, and silverware to the dining room|dining room|plates|napkins|silverware|
+Feed the dog|Bring dog food, food bowl, water to the back yard|back yard|dog food|food bowl|water|
+Help grandma|Bring grandma her phone, purse, and her glasses to the living room|living room|phone|purse|glasses|

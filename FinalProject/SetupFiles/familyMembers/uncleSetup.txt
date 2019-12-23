@@ -1,0 +1,7 @@
+- Hey there champ, have you seen your cousin?|yes|no|
+- Where?|backyard|kitchen|
+- He better not be smoking again|I smelled some smoke earlier|I don't think he is|
+- I bet he's smoking.|-1|mad|
+- Okay, great.|0|neutral|
+- That son of a bitch, thanks for telling me|1|happy|
+- I hope you're right|0|neutral|

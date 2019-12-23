@@ -1,0 +1,7 @@
+- Hey son, what did you get on your comp sci midterm?|Tell the truth|Say, 'The score hasn't been posted yet'|
+- A 68? Why so low?|Say, 'I didn't study enough'|Apologize and promise to do better next time|
+- Well, how do you think you did?|Say, 'I think I did well'|Say, 'I am not sure'|
+- I see|-1|mad|
+- Okay, just try harder on the next one please|0|neutral|
+- Great!|1|happy|
+- Ok, well I hope you did well.|0|neutral|

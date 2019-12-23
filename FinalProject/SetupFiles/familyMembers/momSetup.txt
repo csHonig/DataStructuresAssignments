@@ -1,0 +1,7 @@
+- Oh hi honey, have you talked to your grandmother yet?|Yes|No|
+- Oh good, what kind of drink did she say she wanted?|Cranberry Juice|Iced Tea|
+- Why not?? She should be getting as much attention as possible!|Haven't seen her yet|But She's kinda racist|
+- She didn’t say that! You should know she's allergic to cranberry.|-1|mad|
+- Awesome! How about you go get some from the fridge?|1|happy|
+- Okay well make sure that you say hi|0|neutral|
+- Okay, fair enough, at least go say hi to her. Please??|0|neutral|

@@ -1,0 +1,7 @@
+- Have you seen your uncle anywhere?|No.|Yes.|
+- Okay, will you tell me if you do?|Yes|Sure, whatever.|
+- Where?|In the back yard.|In the kitchen|
+- Thanks hun|0|neutral|
+- Don't take that tone with me!|-1|mad|
+- Backyard? He must be smoking again!|-1|mad|
+- He must be helping, great!|1|happy|

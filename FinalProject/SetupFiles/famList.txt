@@ -1,0 +1,5 @@
+dad,back yard,
+mom,kitchen,
+sister,living room,
+uncle,dining room,
+aunt,entrance,
