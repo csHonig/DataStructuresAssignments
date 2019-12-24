@@ -46,14 +46,44 @@ func insertIntoSortedArray(nums []int, numEntries int, newValue int) {
 	}
 }
 
-func main() {
-	var nums [100]int
-	in := bufio.NewScanner(os.Stdin)
-	numRead := 0
-	for ; in.Scan(); numRead++ {
-		val, _ := strconv.Atoi(in.Text())
-		/// ooooh slices
-		insertIntoSortedArray(nums[:], numRead, val)
+func check(e error) {
+	if e != nil {
+		panic(e)
 	}
-	fmt.Printf("array: %v", &nums)
+}
+
+func printArray(nums []int, numEntries int) {
+	for index, val := range nums {
+		if index == numEntries {
+			break
+		}
+		if index > 0 {
+			fmt.Print(", ")
+		}
+		fmt.Print(val)
+	}
+	fmt.Print("\n")
+}
+
+func main() {
+	args := os.Args[1:]
+
+	if len(args) != 1 {
+		panic("Failed to open the file.")
+	}
+
+	var nums [100]int
+
+	input, ok := os.Open(args[0])
+	check(ok)
+
+	in := bufio.NewScanner(input)
+
+	numRead := 0
+	for ; in.Scan() ; {
+		val, _ := strconv.Atoi(in.Text())
+		insertIntoSortedArray(nums[:], numRead, val)
+		numRead++
+		printArray(nums[:], numRead)
+	}
 }
