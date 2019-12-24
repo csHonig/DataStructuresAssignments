@@ -31,7 +31,7 @@ func insertIntoSortedArray(nums []int, numEntries int, newValue int) {
 
 	// Beginning
 
-	if newValue < nums[0] {
+	if newValue <= nums[0] {
 		insertAtIndex(nums, 0, newValue)
 		return
 	}
